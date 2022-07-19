@@ -25,6 +25,7 @@ class _MobileScaffoldState extends State<MobileScaffold> {
             child: SizedBox(
               width: double.infinity,
               child: GridView.builder(
+                itemCount: 4,
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2),
                 itemBuilder: (context, index) {
