@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learn_rwd/constants.dart';
 
 
 
@@ -13,7 +14,13 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
   @override
   Widget build(BuildContext context) {
  return Scaffold(
-      backgroundColor: Colors.pink,
+      backgroundColor: defaultBackground,
+      appBar: appBar,
+      body: 
+      Row(children: [
+        appDrawer
+      ],)
+      // open draw 
     );
   }
 }
