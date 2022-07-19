@@ -15,10 +15,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: ResponsiveLayout(
-      mobileScaffold: MobileScaffold(),
-      tabletScaffold: TabletScaffold(),
-      desktopScaffold: DesktopScaffold(),
-    ));
+      home: ResponsiveLayout(
+        mobileScaffold: MobileScaffold(),
+        tabletScaffold: TabletScaffold(),
+        desktopScaffold: DesktopScaffold(),
+      ),
+    );
   }
 }
